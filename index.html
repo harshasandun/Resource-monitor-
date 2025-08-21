@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resource Monitor</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="monitor">
+    <h1>Resource Monitor</h1>
+    <div class="stat">
+      <div class="label">CPU Usage</div>
+      <div class="bar"><div class="fill" id="cpu"></div><div class="value" id="cpuVal">0%</div></div>
+    </div>
+    <div class="stat">
+      <div class="label">Memory Usage</div>
+      <div class="bar"><div class="fill" id="memory"></div><div class="value" id="memVal">0%</div></div>
+    </div>
+    <div class="stat">
+      <div class="label">FPS (Frames per second)</div>
+      <div class="bar"><div class="fill" id="fps"></div><div class="value" id="fpsVal">0</div></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
